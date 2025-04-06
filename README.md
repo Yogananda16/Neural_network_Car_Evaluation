@@ -1,25 +1,5 @@
 # Neural_network_Car_Evaluation
-This is a machine learning project where I built a multi-class neural network from scratch using NumPy.  
-The model classifies cars into one of four categories based on features like price, safety, and capacity.  
-It was trained and evaluated on the UCI Car Evaluation dataset.
-
----
-
-## Problem Overview
-
-Each car in the dataset has six categorical features:
-- Buying price
-- Maintenance cost
-- Number of doors
-- Number of persons it can carry
-- Luggage boot size
-- Safety rating
-
-Each car is classified into one of these categories:
-- `unacc` = unacceptable
-- `acc` = acceptable
-- `good`
-- `vgood` = very good
+A neural network classifier implemented using Machine Learning from scratch in Python to predict car acceptability levels. Trained on the UCI Car Evaluation dataset with manual backpropagation, cost minimization, and regularization.
 
 ---
 ## Dataset
@@ -37,7 +17,7 @@ Each car is classified into one of these categories:
 
 ---
 
-## Steps I followed
+## Implementation
 
 - Converted text-based features into numbers using `LabelEncoder`  
 - Built a basic neural network with one hidden layer using NumPy  
